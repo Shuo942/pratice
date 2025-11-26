@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Services pour animaux | Animaux Care</title>
+<meta name="description" content="Plateforme de services pour animaux : toilettage, hôtel, garderie de jour, éducation canine, soins vétérinaires et adoption." />
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #FFF8F0; 
+  color: #4B3A2E;
+}
+
+/* HEADER */
+header {
+  background-color: #9E9086;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 32px;
+}
+
+/* MENU LATÉRAL */
+.menu {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  width: 160px;
+  background-color: #FFB6B9;
+  color: #fff;
+  padding: 15px;
+  height: 70%;
+  border-radius: 0 10px 10px 0;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* ARTICLE */
+article {
+  margin-left: 190px;
+  padding: 30px;
+  background-color: #FFF1CC;
+  min-height: 400px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+article h2 {
+  color: #9E9086;
+}
+
+.exemple {
+  background-color: #FFE5B4;
+  padding: 15px;
+  border-left: 5px solid #9E9086;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+details {
+  background: #FFE5B4;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 18px 0;
+  border-left: 5px solid #9E9086;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* TARGET SECTIONS */
+section {
+  margin-left: 190px;
+  background: #FFF;
+  padding: 25px;
+  margin-top: 40px;
+  border-radius: 12px;
+  border: 2px solid #9E9086;
+}
+
+section h3 {
+  color: #9E9086;
+}
+
+/* FOOTER */
+footer {
+  background-color: #9E9086;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 40px;
+  border-radius: 10px 10px 0 0;
+  font-size: 15px;
+}
+
+footer .footer-links {
+  margin-bottom: 10px;
+}
+
+footer .footer-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer .socials {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .menu {
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+  }
+
+  article, section {
+    margin-left: 0;
+  }
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>🐾 PawCare – Services pour Animaux</h1>
+</header>
+
+<div class="menu">
+  <strong>Nos Services :</strong>
+  <a href="#grooming">🐕 Toilettage</a>
+  <a href="#hotel">🏠 Pension</a>
+  <a href="#daycamp">🎾 Garderie</a>
+  <a href="#training">🎓 Éducation</a>
+  <a href="#vet">🏥 Soins Vétérinaires</a>
+  <a href="#adoption">❤️ Adoption</a>
+</div>
+
+<article>
+  <h2>Sommaire</h2>
+
+  <details>
+    <summary>🐕 Toilettage</summary>
+    <p>Service professionnel pour chiens et chats.</p>
+    <a href="#grooming">→ Aller à la section Toilettage</a>
+  </details>
+
+  <details>
+    <summary>🏠 Pension / Hôtel</summary>
+    <p>Un lieu sécurisé et confortable pour votre animal.</p>
+    <a href="#hotel">→ Aller à la section Pension</a>
+  </details>
+
+  <details>
+    <summary>🎾 Garderie de Jour</summary>
+    <p>Activités, jeux, sociabilisation.</p>
+    <a href="#daycamp">→ Aller à la section Garderie</a>
+  </details>
+
+  <details>
+    <summary>🎓 Éducation Canine</summary>
+    <p>Dressage, comportement, socialisation.</p>
+    <a href="#training">→ Aller à la section Éducation</a>
+  </details>
+
+  <details>
+    <summary>🏥 Soins Vétérinaires</summary>
+    <p>Consultations, vaccins, urgences.</p>
+    <a href="#vet">→ Aller à la section Vétérinaire</a>
+  </details>
+
+  <details>
+    <summary>❤️ Adoption</summary>
+    <p>Trouvez votre futur compagnon.</p>
+    <a href="#adoption">→ Aller à la section Adoption</a>
+  </details>
+
+</article>
+
+<!-- REAL TARGET SECTIONS BELOW -->
+
+<section id="grooming">
+  <h3>🐕 Toilettage</h3>
+  <p>Services complets : bain, séchage, coupe, démêlage, stylisme canin.</p>
+</section>
+
+<section id="hotel">
+  <h3>🏠 Pension / Hôtel</h3>
+  <p>Chambres chauffées, espaces de jeux, surveillance 24/7.</p>
+</section>
+
+<section id="daycamp">
+  <h3>🎾 Garderie de Jour</h3>
+  <p>Jeux encadrés, stimulation mentale, activités sportives.</p>
+</section>
+
+<section id="training">
+  <h3>🎓 Éducation Canine</h3>
+  <p>Cours individuels, collectifs, éducation positive.</p>
+</section>
+
+<section id="vet">
+  <h3>🏥 Soins Vétérinaires</h3>
+  <p>Consultation, chirurgie, radiologie, urgences.</p>
+</section>
+
+<section id="adoption">
+  <h3>❤️ Adoption</h3>
+  <p>Chiens & chats à la recherche d’un foyer aimant.</p>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="#contact">📧 Contact</a> |
+    <a href="#about">À propos</a> |
+    <a href="#legal">Mentions légales</a>
+  </div>
+  <div class="socials">
+    🐾 Suivez-nous : 
+    <a href="#">Facebook</a> · 
+    <a href="#">Instagram</a> · 
+    <a href="#">X (Twitter)</a>
+  </div>
+  <p>© Animaux Care, 2025 — Fait avec ❤️ en France</p>
+</footer>
+
+</body>
+</html>
